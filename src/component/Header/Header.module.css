@@ -1,0 +1,39 @@
+.logo{
+	height: 50px;
+	transform:rotate(20deg);
+}
+
+h1{
+	font-family: 'Kaushan Script', cursive;
+}
+
+.home{
+	height: 60px
+}
+.newsProfile{
+	height:60px;
+	border-radius:50%
+}
+
+.search{
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:2px solid black;
+    background: none;
+    border-radius: 0;
+    color: gray;
+}
+span{
+    font-family: 'Yanone+Kaffeesatz', cursive;
+	font-size:25px;
+}
+
+.search:hover{
+ 	transition: all .15s ease;
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom:1px solid black;
+    background: none;
+}

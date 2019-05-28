@@ -5,9 +5,9 @@ function Users() {
 	return(
 		<div className='right'>
 			<User
-				src='https://look.com.ua/pic/201310/2560x1440/look.com.ua-80297.jpg'
+				src='http://www.alfapumps.com/quotation/dist/img/user.png'
 				alt='Profile'
-				name='Dodge__Officale'
+				name='User'
 				/>
 			<div className='users__block'>
 				<User

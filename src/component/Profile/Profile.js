@@ -8,9 +8,9 @@ const Profile = ()=>{
 		<div className='container profile'>
 			
 			<User
-			src='http://a2goos.com/data_images/models/dodge-durango/dodge-durango-06.jpg'
-			alt='Durango'
-			name='Some Durango'
+			src='http://podpress.ru/images/plymouth_roadrunner-1970.jpg'
+			alt='Plymoth'
+			name='Plymoth'
 			/>
 			<Palette/>
 
