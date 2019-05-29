@@ -1,14 +1,16 @@
 import React from 'react';
-import User from '../User/User.js'
+import User from '../User/User.js';
+import {Link} from 'react-router-dom'
 
 function Users() {
 	return(
 		<div className='right'>
-			<User
+		<Link to='/profile' >	<User
 				src='http://www.alfapumps.com/quotation/dist/img/user.png'
 				alt='Profile'
 				name='User'
 				/>
+		</Link>
 			<div className='users__block'>
 				<User
 					src='https://www.conceptcarz.com/images/Chrysler/chrysler_TownNCountry_2008_011.jpg'

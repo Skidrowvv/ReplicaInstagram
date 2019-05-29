@@ -101,7 +101,7 @@ header {
 }
 
 .post__descr {
-    padding: 0 20px;
+    padding: 0 25px;
     margin: 0px 0 20px 0;
 }
 
@@ -117,15 +117,16 @@ header {
 .user img {
     width: 70px;
     height: 70px;
-    border-radius: 100%;
+    border-radius:100%;
     object-fit: cover;
-    border: 1px solid rgb(201, 46, 140);
+    border: 1.5px solid rgb(201, 46, 140);
 }
 
 .user div {
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
+    font-family: 'Comfortaa', cursive;
 }
 
 .min {
@@ -177,3 +178,4 @@ header {
     height: 300px;
     object-fit: cover;
 }
+

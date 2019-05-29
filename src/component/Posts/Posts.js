@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import User from '../User/User.js'
 import InstaService from '../../services/instaService.js';
-import ErrorMessage from '../ErrorMessage/ErrorMessage.js'
+import ErrorMessage from '../ErrorMessage/ErrorMessage.js';
+import Like from './Like/Like.js'
 
 export default class Posts extends Component{
 
@@ -42,10 +43,13 @@ renderItems(arr){
 				alt={alt}
 				name={name}
 				/>
+
 					<img src={src} alt={alt} />
 				<div className='post__name'>
 					{name}
 				</div>
+
+			<Like/><br/>
 
 				<div className='post_descr'>
 				{descr}
@@ -68,6 +72,7 @@ const items = this.renderItems(posts)
 		return(
 	<div className='left'>
 			{items}
+
 	</div>
 		)
 	}

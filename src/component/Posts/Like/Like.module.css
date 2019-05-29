@@ -1,0 +1,24 @@
+.like_wrap{
+	display:grid;
+	padding-left:10px;
+	grid-template-columns:repeat(2,10%);
+
+	
+}
+.like_wrap img{
+	height:45px;
+	border-radius:50%;
+	cursor: pointer;
+}
+
+.like_wrap button{
+	background: none;
+	border-radius:50%;
+	border:none;
+}
+
+.like_wrap img:hover{
+	transition-duration:0.5s;
+	height:40px;
+}
+
